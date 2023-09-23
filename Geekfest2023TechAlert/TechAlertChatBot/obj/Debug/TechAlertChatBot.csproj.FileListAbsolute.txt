@@ -1,0 +1,16 @@
+C:\Geekfest 2023\Geekfest-2023-Tech-Alert\Geekfest2023TechAlert\TechAlertChatBot\bin\Debug\TechAlertChatBot.exe.config
+C:\Geekfest 2023\Geekfest-2023-Tech-Alert\Geekfest2023TechAlert\TechAlertChatBot\bin\Debug\TechAlertChatBot.exe
+C:\Geekfest 2023\Geekfest-2023-Tech-Alert\Geekfest2023TechAlert\TechAlertChatBot\bin\Debug\TechAlertChatBot.pdb
+C:\Geekfest 2023\Geekfest-2023-Tech-Alert\Geekfest2023TechAlert\TechAlertChatBot\obj\Debug\TechAlertChatBot.csproj.AssemblyReference.cache
+C:\Geekfest 2023\Geekfest-2023-Tech-Alert\Geekfest2023TechAlert\TechAlertChatBot\obj\Debug\TechAlertChatBot.csproj.SuggestedBindingRedirects.cache
+C:\Geekfest 2023\Geekfest-2023-Tech-Alert\Geekfest2023TechAlert\TechAlertChatBot\obj\Debug\MainWindow.g.cs
+C:\Geekfest 2023\Geekfest-2023-Tech-Alert\Geekfest2023TechAlert\TechAlertChatBot\obj\Debug\App.g.cs
+C:\Geekfest 2023\Geekfest-2023-Tech-Alert\Geekfest2023TechAlert\TechAlertChatBot\obj\Debug\TechAlertChatBot_MarkupCompile.cache
+C:\Geekfest 2023\Geekfest-2023-Tech-Alert\Geekfest2023TechAlert\TechAlertChatBot\obj\Debug\TechAlertChatBot_MarkupCompile.lref
+C:\Geekfest 2023\Geekfest-2023-Tech-Alert\Geekfest2023TechAlert\TechAlertChatBot\obj\Debug\MainWindow.baml
+C:\Geekfest 2023\Geekfest-2023-Tech-Alert\Geekfest2023TechAlert\TechAlertChatBot\obj\Debug\TechAlertChatBot.g.resources
+C:\Geekfest 2023\Geekfest-2023-Tech-Alert\Geekfest2023TechAlert\TechAlertChatBot\obj\Debug\TechAlertChatBot.Properties.Resources.resources
+C:\Geekfest 2023\Geekfest-2023-Tech-Alert\Geekfest2023TechAlert\TechAlertChatBot\obj\Debug\TechAlertChatBot.csproj.GenerateResource.cache
+C:\Geekfest 2023\Geekfest-2023-Tech-Alert\Geekfest2023TechAlert\TechAlertChatBot\obj\Debug\TechAlertChatBot.csproj.CoreCompileInputs.cache
+C:\Geekfest 2023\Geekfest-2023-Tech-Alert\Geekfest2023TechAlert\TechAlertChatBot\obj\Debug\TechAlertChatBot.exe
+C:\Geekfest 2023\Geekfest-2023-Tech-Alert\Geekfest2023TechAlert\TechAlertChatBot\obj\Debug\TechAlertChatBot.pdb
