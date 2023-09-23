@@ -24,5 +24,14 @@ namespace TechAlertChatBot
         {
             InitializeComponent();
         }
+
+        private void msgBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            if (msgBox.Text == "")
+            {
+                msgBox.Text = "Enter your message...";
+            }
+
+        }
     }
 }

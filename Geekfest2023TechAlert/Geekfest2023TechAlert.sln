@@ -5,7 +5,7 @@ VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Geekfest2023TechAlert", "Geekfest2023TechAlert\Geekfest2023TechAlert.csproj", "{778D8EED-57CD-4C4C-BCD3-DBA88124D601}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechAlertChatBot", "TechAlertChatBot\TechAlertChatBot.csproj", "{791AD3AB-CEF2-48EA-9D12-B893C4CD8F64}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechAlertChatBot", "TechAlertChatBot\TechAlertChatBot.csproj", "{4C402E70-7041-4886-A9DD-4E0F0762CA62}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{778D8EED-57CD-4C4C-BCD3-DBA88124D601}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{778D8EED-57CD-4C4C-BCD3-DBA88124D601}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{778D8EED-57CD-4C4C-BCD3-DBA88124D601}.Release|Any CPU.Build.0 = Release|Any CPU
-		{791AD3AB-CEF2-48EA-9D12-B893C4CD8F64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{791AD3AB-CEF2-48EA-9D12-B893C4CD8F64}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{791AD3AB-CEF2-48EA-9D12-B893C4CD8F64}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{791AD3AB-CEF2-48EA-9D12-B893C4CD8F64}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C402E70-7041-4886-A9DD-4E0F0762CA62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C402E70-7041-4886-A9DD-4E0F0762CA62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C402E70-7041-4886-A9DD-4E0F0762CA62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C402E70-7041-4886-A9DD-4E0F0762CA62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
