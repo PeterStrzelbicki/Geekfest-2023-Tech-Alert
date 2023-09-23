@@ -1,8 +1,0 @@
-C:\Geekfest 2023\Geekfest-2023-Tech-Alert\Geekfest2023TechAlert\Geekfest2023TechAlert\bin\Debug\Geekfest2023TechAlert.exe.config
-C:\Geekfest 2023\Geekfest-2023-Tech-Alert\Geekfest2023TechAlert\Geekfest2023TechAlert\bin\Debug\Geekfest2023TechAlert.exe
-C:\Geekfest 2023\Geekfest-2023-Tech-Alert\Geekfest2023TechAlert\Geekfest2023TechAlert\bin\Debug\Geekfest2023TechAlert.pdb
-C:\Geekfest 2023\Geekfest-2023-Tech-Alert\Geekfest2023TechAlert\Geekfest2023TechAlert\obj\Debug\Geekfest2023TechAlert.csproj.AssemblyReference.cache
-C:\Geekfest 2023\Geekfest-2023-Tech-Alert\Geekfest2023TechAlert\Geekfest2023TechAlert\obj\Debug\Geekfest2023TechAlert.csproj.SuggestedBindingRedirects.cache
-C:\Geekfest 2023\Geekfest-2023-Tech-Alert\Geekfest2023TechAlert\Geekfest2023TechAlert\obj\Debug\Geekfest2023TechAlert.csproj.CoreCompileInputs.cache
-C:\Geekfest 2023\Geekfest-2023-Tech-Alert\Geekfest2023TechAlert\Geekfest2023TechAlert\obj\Debug\Geekfest2023TechAlert.exe
-C:\Geekfest 2023\Geekfest-2023-Tech-Alert\Geekfest2023TechAlert\Geekfest2023TechAlert\obj\Debug\Geekfest2023TechAlert.pdb
