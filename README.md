@@ -11,7 +11,7 @@ Tech Alert is an advanced application designed to proactively safeguard your com
 
 ## Usage
 
-1. Install Tech Alert on your computer.
+1. Run the service script.
 2. Let Tech Alert run in the background, continuously monitoring your processes.
 3. If a potential threat is detected, Tech Alert will terminate the process.
 4. Utilize the integrated chat service to seek assistance and verification from trusted contacts.
