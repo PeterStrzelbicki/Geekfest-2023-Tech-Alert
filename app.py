@@ -6,6 +6,7 @@ by the Chat Logic
 """
 from tkinter import *
 import os
+from service import terminate_scammer_processes
 
 # set constants for background and text colors
 LABEL_COLOUR = "#264794"
