@@ -4,7 +4,16 @@ import subprocess
 from send import send_message
 
 # List of known scammer software
-scammer_software = ['teamviewer', 'anydesk', 'logmein', 'ammyy', 'rdp', 'vnc', 'netsupport', 'gotomypc', 'supremo', 'notepad']
+def load_blacklist(file_path):
+    try:
+        with open(file_path, "r") as text_file:
+            scammer_software = text_file.read().split('\n')
+        return scammer_software
+    except Exception as e:
+        print(f"Error loading blacklist: {e}")
+        return []
+
+scammer_software = load_blacklist("blacklist.txt")
 
 # Flag to check if app.py is already running
 app_running = False
@@ -25,24 +34,22 @@ def terminate_scammer_processes():
                 process_name = process.info['name'].lower()
                 for scammer_tool in scammer_software:
                     if scammer_tool in process_name:
-                        print(f"Terminating {scammer_tool.capitalize()} process (PID {process.info['pid']})")
                         process.terminate()
-                        
-                        # Write the termination message to a file
-                        with open("log.txt", "a") as file:  # Use "a" mode for append
-                            file.write(f"Terminated {scammer_tool.capitalize()} process (PID {process.info['pid']})\n")
-                        
+
                         # Send a message to app.py
+<<<<<<< HEAD
                         send_message(f"Terminated {scammer_tool.capitalize()} process (PID {process.info['pid']})")
+=======
+                        send_message_to_app(f"Suspicious software has been detected: {scammer_tool.capitalize()}. A trusted contact has been notified.)")
+>>>>>>> b8ab09cabf0b19ddf9f77534a260a33b9c20760b
                         
                         # Check if app.py is already running, if not, run it
                         if not app_running:
-                            print("Starting app.py...")
                             subprocess.Popen(["python", "app.py"])
                             app_running = True
         except Exception as e:
             print(f"Error: {e}")
-        time.sleep(10)  # Check for scammer processes every 60 seconds
+        time.sleep(10)  # Check for scammer processes every 10 seconds
 
 if __name__ == "__main__":
     terminate_scammer_processes()
