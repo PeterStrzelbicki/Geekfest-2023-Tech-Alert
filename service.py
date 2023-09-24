@@ -37,11 +37,7 @@ def terminate_scammer_processes():
                         process.terminate()
 
                         # Send a message to app.py
-<<<<<<< HEAD
                         send_message(f"Terminated {scammer_tool.capitalize()} process (PID {process.info['pid']})")
-=======
-                        send_message_to_app(f"Suspicious software has been detected: {scammer_tool.capitalize()}. A trusted contact has been notified.)")
->>>>>>> b8ab09cabf0b19ddf9f77534a260a33b9c20760b
                         
                         # Check if app.py is already running, if not, run it
                         if not app_running:
