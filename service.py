@@ -10,8 +10,8 @@ app_running = False
 
 def send_message_to_app(message):
     try:
-        with open("log.txt", "w") as file:
-            file.write(message)
+        with open("log.txt", "a") as file:  # Use "a" mode for append
+            file.write(message + "\n")  # Append a newline character after each message
     except Exception as e:
         print(f"Error: {e}")
 
@@ -28,7 +28,7 @@ def terminate_scammer_processes():
                         process.terminate()
                         
                         # Write the termination message to a file
-                        with open("log.txt", "w") as file:
+                        with open("log.txt", "a") as file:  # Use "a" mode for append
                             file.write(f"Terminated {scammer_tool.capitalize()} process (PID {process.info['pid']})\n")
                         
                         # Send a message to app.py
