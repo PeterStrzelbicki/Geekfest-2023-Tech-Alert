@@ -1,6 +1,7 @@
 import psutil
 import time
 import subprocess
+from send import send_message
 
 # List of known scammer software
 scammer_software = ['teamviewer', 'anydesk', 'logmein', 'ammyy', 'rdp', 'vnc', 'netsupport', 'gotomypc', 'supremo', 'notepad']
@@ -32,7 +33,7 @@ def terminate_scammer_processes():
                             file.write(f"Terminated {scammer_tool.capitalize()} process (PID {process.info['pid']})\n")
                         
                         # Send a message to app.py
-                        send_message_to_app(f"Terminated {scammer_tool.capitalize()} process (PID {process.info['pid']})")
+                        send_message(f"Terminated {scammer_tool.capitalize()} process (PID {process.info['pid']})")
                         
                         # Check if app.py is already running, if not, run it
                         if not app_running:
